@@ -1,5 +1,3 @@
-# Bytewavelabs_SensorMUX_Master
-<h1>Hello EveryONE </h1>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,7 +95,7 @@ void loop() {
         <li><strong>Clock Speed:</strong> Optimized for fast response times</li>
         <li><strong>Read Time per Sensor:</strong> ~X ms (To be measured)</li>
         <li><strong>Operating Temperature:</strong> -40°C to 85°C</li>
-        <li><strong>Vibration Sustainability:</strong> Suitable for high-speed movement & competition-grade bots</li>
+        <li><strong>Vibration Resistance:</strong> Suitable for high-speed movement & competition-grade bots</li>
     </ul>
     <img src="https://via.placeholder.com/800x400.png?text=Performance+Graph" alt="Performance Graph">
 
