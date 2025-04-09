@@ -1,7 +1,8 @@
 
 #include "Arduino.h"
+#include "ByteSense.h"
 
-ByteSense_Qre mysensor;                // Created object
+ByteSense mysensor;                // Created object
 
 mysensor.pins(D5, D6, D7, D8, D9, A0); // defined pins (S0,S1,S2,S3,E,OP)
 
@@ -11,6 +12,7 @@ int minval[16], maxval[16], tresholdval[16];
 
 void setup()
 {
+    mysensor.begin(115200);
     mysensor.init();
 }
 
